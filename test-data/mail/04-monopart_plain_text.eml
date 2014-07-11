@@ -1,0 +1,49 @@
+Return-Path: <james@hillyerd.com>
+Delivered-To: test-3@icloud.com
+Received: from spool.mail.gandi.net (mspool3-d.mgt.gandi.net [10.0.21.134])
+	by nmboxes30-d.mgt.gandi.net (Postfix) with ESMTP id 1F3BCBFC3D
+	for <test-3@icloud.com>; Fri,  8 Feb 2013 16:55:20 +0100 (CET)
+Received: from mfilter14-d.gandi.net (mfilter14-d.gandi.net [217.70.178.142])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 1B50111607F
+	for <test-3@icloud.com>; Fri,  8 Feb 2013 16:55:20 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mfilter14-d.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.134])
+	by mfilter14-d.gandi.net (mfilter14-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id DHEc8nvLDBN3 for <test-3@icloud.com>;
+	Fri,  8 Feb 2013 16:55:18 +0100 (CET)
+X-Policy: 217.70.183.197 is whitelisted
+X-Policy: 217.70.183.197 is whitelisted
+Received: from relay5-d.mail.gandi.net (relay5-d.mail.gandi.net [217.70.183.197])
+	by spool.mail.gandi.net (Postfix) with ESMTP id B82B8116096
+	for <test-3@icloud.com>; Fri,  8 Feb 2013 16:55:15 +0100 (CET)
+Received: from mfilter23-d.gandi.net (mfilter23-d.gandi.net [217.70.178.151])
+	by relay5-d.mail.gandi.net (Postfix) with ESMTP id B17F541C076
+	for <test-3@icloud.com>; Fri,  8 Feb 2013 16:55:15 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mfilter23-d.gandi.net
+Received: from relay5-d.mail.gandi.net ([217.70.183.197])
+	by mfilter23-d.gandi.net (mfilter23-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id 8CAo-lfW5igG for <test-3@icloud.com>;
+	Fri,  8 Feb 2013 16:55:14 +0100 (CET)
+X-Originating-IP: 85.2.88.121
+Received: from Jamess-MacBook-Pro.local (121-88.2-85.cust.bluewin.ch [85.2.88.121])
+	(Authenticated sender: james@hillyerd.com)
+	by relay5-d.mail.gandi.net (Postfix) with ESMTPSA id 4FD7241C074
+	for <test-3@icloud.com>; Fri,  8 Feb 2013 16:55:14 +0100 (CET)
+Message-ID: <51151FE0.40405@hillyerd.com>
+Date: Fri, 08 Feb 2013 16:55:12 +0100
+From: James Hillyerd <james@hillyerd.com>
+User-Agent: Postbox 3.0.7 (Macintosh/20130119)
+MIME-Version: 1.0
+To: test-3@icloud.com
+Subject: test
+X-Enigmail-Version: 1.2.3
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+test de mail
+--=20
+James Hillyerd
+Hillyerd IT Consulting
+www.hillyerd.com
+=20
+

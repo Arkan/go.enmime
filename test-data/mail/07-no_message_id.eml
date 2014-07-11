@@ -1,0 +1,341 @@
+X-Account-Key: account1
+X-UIDL: 0000e9554a890029
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:
+Return-Path: <bounce@email.uneoffre.fr>
+Delivered-To: james@hillyerd.com
+Received: from spool.mail.gandi.net (mspool7-d.mgt.gandi.net [10.0.21.138])
+	by nmboxes4-d.mgt.gandi.net (Postfix) with ESMTP id F05EC1B14B2
+	for <james@hillyerd.com>; Tue,  1 Jul 2014 13:55:25 +0200 (CEST)
+Received: from mfilter27-d.gandi.net (mfilter27-d.gandi.net [217.70.178.155])
+	by spool.mail.gandi.net (Postfix) with ESMTP id EE7D719F371
+	for <james@hillyerd.com>; Tue,  1 Jul 2014 13:55:25 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter27-d.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.138])
+	by mfilter27-d.gandi.net (mfilter27-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id gEb87nkryjFl for <james@hillyerd.com>;
+	Tue,  1 Jul 2014 13:55:24 +0200 (CEST)
+Received: from email.uneoffre.fr (email.uneoffre.fr [212.129.24.230])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 3EF0D19F38B
+	for <james@hillyerd.com>; Tue,  1 Jul 2014 13:55:21 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key; d=email.uneoffre.fr;
+ h=To:Subject:Message-ID:Date:From:Reply-To:MIME-Version:List-Unsubscribe:Content-Type:Content-Transfer-Encoding; i=send@email.uneoffre.fr;
+ bh=RhIPUyZfO4uFTZoxdmYbh1HJk9U=;
+ b=H1ElWO10lC3krZoxwydml+Lu6eDSCi8aYGnFOJS9UzQy1T6waqEN7YdWMc4qhiV/3LJb5QPN7dmx
+   HoklrO/gBysTqkW2d+Y1ctgjkaN6jxauqSs4EvyfdYB1vFrmhKisYTICx9SCPnJcbb6hXUHHDSUv
+   G6/4r3QTUz6rlUYXXhY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key; d=email.uneoffre.fr;
+ b=pQdG5mb7DH1A8+YmSji+3jDUcMdc6k6WOrWFit9AET69PzlEATdqc5t19tyxU31TI0LJSmDkhPGJ
+   Awbl66rHbpneiL009qQQIbW3q55NcMv/Wk+uH5R/fk+hStzbqePoHyIrqQMMEsHMztNKwWR0apxe
+   EtzlsT/LkG/chl7zD2g=;
+To: james@hillyerd.com
+Subject: =?UTF-8?B?UGVuc2V6IMOgIHByb3RlZ2VyIHZvdHJlIGhhYml0YXRpb24g?=
+Date: Tue, 01 Jul 2014 13:55:20 +0200
+From: "Alarme-Fast" <send@email.uneoffre.fr>
+Reply-To: reply@email.uneoffre.fr
+MIME-Version: 1.0
+X-Mailer-LID: 14
+List-Unsubscribe: <http://eccmmedia.net/interspire6/unsubscribe.php?M=16756258&C=6d342e535efcd7c58a71c32dcae5e07e&L=14&N=43>
+X-Mailer-RecptId: 16756258
+X-Mailer-SID: 43
+X-Mailer-Sent-By: 1
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_f4c4bf907a3ee7c4bfb467ea8c7af359"
+Content-Transfer-Encoding: 7bit
+
+--b1_f4c4bf907a3ee7c4bfb467ea8c7af359
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+Pour prot&eacute;ger votre habitation, faites confiance aux
+sp&eacute;cialiste de l'alarme !
+ Consultez la version en ligne
+[http://eccmmedia.net/interspire6/display.php?M=3D16756258&C=3D6d342e535e=
+fcd7c58a71c32dcae5e07e&S=3D43&L=3D14&N=3D9]
+
+   [http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D616=
+4&F=3DT]
+Pensez &Agrave; prot&Eacute;ger votre habitation
+ Plus de 950 cambriolages par jour en France1
+[http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D6164&F=
+=3DT]
+[http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D6164&F=
+=3DT]
+
+ haute s&Eacute;curit&Eacute;
+ avec syst&egrave;me sans fil
+ et image
+[http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D6164&F=
+=3DT]
+protection
+ contre les risques
+ domestiques
+[http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D6164&F=
+=3DT]
+T&Eacute;l&Eacute;surveillance
+ 24H/24 - 7J/7
+[http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D6164&F=
+=3DT]
+[http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D6164&F=
+=3DT]
+
+1 Source : ONDRP 2012 *&agrave; valoir sur le kit haute
+s&eacute;curit&eacute; r&eacute;sidence, TVA 10 % &agrave; valoir sur les
+logements de plus de 2 ans, &agrave; d&eacute;faut TVA 20% ; installation
+218.90 &euro; TTC ; abonnement au service de t&eacute;l&eacute;surveillan=
+ce
+&agrave; partir de 38.89 &euro; TTC / mois
+ Ne plus recevoir ce type de communication
+[http://eccmmedia.net/interspire6/unsubscribe.php?M=3D16756258&C=3D6d342e=
+535efcd7c58a71c32dcae5e07e&L=3D14&N=3D43]
+
+--b1_f4c4bf907a3ee7c4bfb467ea8c7af359
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title>Alarme-Fast</title>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+ />
+	<meta content=3D"width=3Ddevice-width" />
+	<style type=3D"text/css">
+		@media only screen and (max-width: 480px)
+body { margin: 0; padding: 0; -webkit-text-size-adjust:none;
+-ms-text-size-adjust:none;
+
+			[class=3Dwfull], [class=3D"wfull_noborder"], [class=3Dwimg], [class=3D=
+colonne]
+width:320px !important;  height:auto !important;
+			[class=3Dwimg]  height:auto !important;
+			[class=3D"wfull_noborder"]  border:none !important;
+			td[class=3Dcolonne]  display:block !important;
+			[class=3Dtitre]  font-size:16px !important;
+			[class=3Dbt]  height:70px; background:none !important;
+
+			[class=3Dno_bg]  background:none !important;
+			[class=3Dhide]  display:none;
+		}
+		.ExternalClass width:100%;
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass
+font, .ExternalClass td, .ExternalClass div line-height: 100%;
+		 table  border-collapse:collapse; mso-table-lspace:0pt;
+mso-table-rspace:0pt;
+		 table td  border-collapse:collapse; mso-table-lspace:0pt;
+mso-table-rspace:0pt;
+	</style>
+</head>
+<body bgcolor=3D"#ffffff">
+<br />
+<table style=3D"width: 640px;" class=3D"wfull" cellpadding=3D"0" cellspac=
+ing=3D"0"
+align=3D"center">
+<tbody>
+<tr>
+<td class=3D"hide" style=3D"font-size: 11px; font-family: Arial, Verdana;
+color: #9c9c9c;" align=3D"center">Pour prot&eacute;ger votre habitation,
+faites confiance aux sp&eacute;cialiste de l'alarme !<br /> <a
+href=3D"http://eccmmedia.net/interspire6/display.php?M=3D16756258&C=3D6d3=
+42e535efcd7c58a71c32dcae5e07e&S=3D43&L=3D14&N=3D9"
+target=3D"_blank" style=3D"font-family: Arial; font-size: 10px; color: #6=
+66;
+text-decoration: none;">Consultez la version en ligne </a><br /><br
+/></td>
+</tr>
+<tr>
+<td align=3D"center">
+<table class=3D"wfull_noborder" style=3D"border: 1px solid #d5d5d5; width=
+:
+640px;" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" border=3D"0"=
+>
+<tbody>
+<tr>
+<td class=3D"no_bg"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+style=3D"font-size: 18px; font-family: Arial, Verdana; text-align: center=
+;
+color: #ffffff;"> <img class=3D"wimg"
+src=3D"http://ad-di06.net/Alarme_Fast/k/1406/img/entete1.jpg" alt=3D"ALAR=
+ME
+FAST Habitation/Entreprise - Faites confiance au leader europ&eacute;en"
+style=3D"display: block;" border=3D"0" height=3D"106" width=3D"638" /> </=
+a></td>
+</tr>
+<tr>
+<td style=3D"position: inherit; padding-bottom: 10px;" class=3D"colonne"
+align=3D"center">
+<table class=3D"colonne" cellpadding=3D"0" cellspacing=3D"0" align=3D"cen=
+ter"
+border=3D"0">
+<tbody>
+<tr>
+<td class=3D"colonne" style=3D"position: inherit;" align=3D"center"
+width=3D"600"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+class=3D"titre" style=3D"font-size: 20px; font-family: Arial, Verdana;
+text-transform: uppercase; text-decoration: none; color: #3b3b3b; positio=
+n:
+inherit; padding-bottom: 3px;"> <font color=3D"#3b3b3b"><strong>Pensez
+&Agrave; prot&Eacute;ger votre habitation</strong></font><br /> <font
+color=3D"#3b3b3b">Plus de </font><font style=3D"color: #9a272e;"><strong>=
+950
+cambriolages</strong></font> <font color=3D"#3b3b3b">par jour en
+France<sup>1</sup></font></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"colonne">
+<table style=3D"width: 620px;" class=3D"wfull" cellpadding=3D"0" cellspac=
+ing=3D"0"
+align=3D"center" border=3D"0">
+<tbody>
+<tr>
+<td class=3D"colonne" valign=3D"top">
+<div align=3D"left">
+<table style=3D"width: 400px;" class=3D"wfull" cellpadding=3D"0" cellspac=
+ing=3D"0"
+border=3D"0">
+<tbody>
+<tr>
+<td class=3D"colonne" align=3D"center"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+style=3D"font-size: 16px; font-family: Arial, Verdana; text-decoration: n=
+one;
+color: #ffffff;"><img
+src=3D"http://ad-di06.net/Alarme_Fast/k/1406/img/entete2.jpg" class=3D"wi=
+mg"
+alt=3D"" style=3D"display: block;" border=3D"0" height=3D"268" width=3D"4=
+00"
+/></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td class=3D"hide" align=3D"left" bgcolor=3D"#f5f5f5" valign=3D"top"></td=
+>
+<td class=3D"colonne" bgcolor=3D"#f5f5f5" valign=3D"top">
+<div align=3D"left">
+<table style=3D"width: 200px;" class=3D"wfull" cellpadding=3D"0" cellspac=
+ing=3D"0"
+border=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" height=3D"69"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+style=3D"font-size: 14px; font-family: Arial, Verdana; font-weight: bold;
+text-decoration: none; color: #3b3b3b;"> <span style=3D"text-transform:
+uppercase; font-size: 16px; color: #9a272e;">haute
+s&Eacute;curit&Eacute;</span><br /> avec syst&egrave;me sans fil<br /> et
+image</a></td>
+</tr>
+<tr>
+<td align=3D"center" height=3D"68"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+style=3D"font-size: 14px; font-family: Arial, Verdana; font-weight: bold;
+text-decoration: none; color: #3b3b3b;"> <span style=3D"text-transform:
+uppercase; font-size: 16px; color: #9a272e;">protection</span><br /> cont=
+re
+les risques<br /> domestiques</a></td>
+</tr>
+<tr>
+<td align=3D"center" height=3D"69"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+style=3D"font-size: 14px; font-family: Arial, Verdana; font-weight: bold;
+text-decoration: none; color: #3b3b3b;"> <span style=3D"text-transform:
+uppercase; font-size: 16px; color:
+#9a272e;">T&Eacute;l&Eacute;surveillance</span><br /> 24H/24 -
+7J/7</a></td>
+</tr>
+<tr>
+<td class=3D"bt" align=3D"center" valign=3D"top"><a
+href=3D"http://eccmmedia.net/interspire6/link.php?M=3D16756258&N=3D43&L=3D=
+6164&F=3DH"
+style=3D"font-size: 16px; font-family: Arial, Verdana; text-decoration: n=
+one;
+color: #ffffff;"><img
+src=3D"http://ad-di06.net/Alarme_Fast/k/1406/img/entete3.jpg"
+alt=3D"Renseignez-vous gratuitement et sans engagement" style=3D"display:
+block;" border=3D"0" height=3D"60" width=3D"200" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td class=3D"hide" bgcolor=3D"#f5f5f5"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"colonne" style=3D"line-height: 10px;" width=3D"300">
+<table class=3D"colonne" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+>
+<tbody>
+<tr>
+<td class=3D"colonne" style=3D"line-height: 10px;"><img class=3D"colonne"
+src=3D"http://ad-di06.net/Alarme_Fast/k/1406/img/espace.jpg" alt=3D""
+style=3D"display: block;" border=3D"0" height=3D"10" width=3D"200" /></td=
+>
+<td class=3D"colonne" style=3D"line-height: 10px;"><img class=3D"colonne"
+src=3D"http://ad-di06.net/Alarme_Fast/k/1406/img/espace.jpg" alt=3D""
+style=3D"display: block;" border=3D"0" height=3D"10" width=3D"150" /></td=
+>
+<td class=3D"colonne" style=3D"line-height: 10px;"><img class=3D"colonne"
+src=3D"http://ad-di06.net/Alarme_Fast/k/1406/img/espace.jpg" alt=3D""
+style=3D"display: block;" border=3D"0" height=3D"10" width=3D"250" /></td=
+>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"colonne" style=3D"font-size: 11px; font-family: Arial, Verda=
+na;
+color: #9c9c9c;"><sup>1</sup> Source : ONDRP 2012 *&agrave; valoir sur le
+kit haute s&eacute;curit&eacute; r&eacute;sidence, TVA 10 % &agrave; valo=
+ir
+sur les logements de plus de 2 ans, &agrave; d&eacute;faut TVA 20% ;
+installation 218.90 &euro; TTC ; abonnement au service de
+t&eacute;l&eacute;surveillance &agrave; partir de 38.89 &euro; TTC /
+mois</td>
+</tr>
+</tbody>
+</table>
+<br /><center><a
+href=3D"http://eccmmedia.net/interspire6/unsubscribe.php?M=3D16756258&C=3D=
+6d342e535efcd7c58a71c32dcae5e07e&L=3D14&N=3D43"
+target=3D"_blank" style=3D"font-family: Arial; font-size: 10px; color: #6=
+66;
+text-decoration: none;"> Ne plus recevoir ce type de
+communication</a></center><img
+src=3D"http://impfr.tradedoubler.com/imp?type(img)g(20743168)a(2216802)"
+alt=3D"" height=3D"1" width=3D"1" />
+<img
+src=3D"http://eccmmedia.net/interspire6/open.php?M=3D16756258&L=3D14&N=3D=
+43&F=3DH&image=3D.jpg"
+height=3D"1" width=3D"10"></body>
+</html>
+
+--b1_f4c4bf907a3ee7c4bfb467ea8c7af359--
+
+
+

@@ -1,0 +1,58 @@
+X-Account-Key: account1
+X-UIDL: 0000ea344a890029
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:
+Return-Path: <test-2@icloud.com>
+Delivered-To: james@hillyerd.com
+Received: from spool.mail.gandi.net (mspool3-d.mgt.gandi.net [10.0.21.134])
+	by nmboxes4-d.mgt.gandi.net (Postfix) with ESMTP id 234D81B14B3
+	for <james@hillyerd.com>; Fri,  4 Jul 2014 11:10:37 +0200 (CEST)
+Received: from mfilter11-d.gandi.net (mfilter11-d.gandi.net [217.70.178.131])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 20DBC1164AD
+	for <james@hillyerd.com>; Fri,  4 Jul 2014 11:10:37 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter11-d.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.134])
+	by mfilter11-d.gandi.net (mfilter11-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id NSK6+BS+wr8V for <james@hillyerd.com>;
+	Fri,  4 Jul 2014 11:10:35 +0200 (CEST)
+Received: from relay5-d.mail.gandi.net (relay5-d.mail.gandi.net [IPv6:2001:4b98:c:538::197])
+	by spool.mail.gandi.net (Postfix) with ESMTPS id D53A611659F
+	for <james@hillyerd.com>; Fri,  4 Jul 2014 11:10:35 +0200 (CEST)
+Received: from mfilter31-d.gandi.net (mfilter31-d.gandi.net [217.70.178.162])
+	by relay5-d.mail.gandi.net (Postfix) with ESMTP id CC8E441C084
+	for <james@hillyerd.com>; Fri,  4 Jul 2014 11:10:35 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter31-d.gandi.net
+Received: from relay5-d.mail.gandi.net ([217.70.183.197])
+	by mfilter31-d.gandi.net (mfilter31-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id O3Cp97rG0UtD for <james@hillyerd.com>;
+	Fri,  4 Jul 2014 11:10:34 +0200 (CEST)
+X-Originating-IP: 62.203.90.217
+Received: from jamess-mac-mini.hillyerd.com (217-90.203-62.cust.bluewin.ch [62.203.90.217])
+	(Authenticated sender: test-2@icloud.com)
+	by relay5-d.mail.gandi.net (Postfix) with ESMTPSA id 73FA141C0A0
+	for <james@hillyerd.com>; Fri,  4 Jul 2014 11:10:34 +0200 (CEST)
+Message-ID: <53B66F88.5000200@icloud.com>
+Date: Fri, 04 Jul 2014 11:10:32 +0200
+From: Revatest2 <test-2@icloud.com>
+User-Agent: Postbox 3.0.11 (Macintosh/20140602)
+MIME-Version: 1.0
+To: James Hillyerd <james@hillyerd.com>
+Subject: Test mail monopart HTML only
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type">
+</head><body bgcolor="#FFFFFF" text="#000000">
+Ceci est une part HTML. Il n'y a pas de part TEXT<br>
+  <br>
+  <span style="font-weight: bold;">YOUPIIII<br>
+    <br>
+  </span>Voila.<span style="font-weight: bold;"><span
+style="font-weight: bold;"><br>
+      <br>
+    </span></span>
+</body>
+</html>
+

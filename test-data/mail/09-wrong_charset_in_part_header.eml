@@ -1,0 +1,198 @@
+Return-Path: <info-GUID6YZBVTUUF66IRQRQGLIQ@news.groupon.ch>
+Delivered-To: test-3@icloud.com
+Received: from spool.mail.gandi.net (mspool7-d.mgt.gandi.net [10.0.21.138])
+	by nmboxes30-d.mgt.gandi.net (Postfix) with ESMTP id D60ADBFC47
+	for <test-3@icloud.com>; Tue, 28 May 2013 10:12:03 +0200 (CEST)
+Received: from mfilter24-d.gandi.net (mfilter24-d.gandi.net [217.70.178.152])
+	by spool.mail.gandi.net (Postfix) with ESMTP id D0B3D19F39C
+	for <test-3@icloud.com>; Tue, 28 May 2013 10:12:03 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter24-d.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.138])
+	by mfilter24-d.gandi.net (mfilter24-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id Db5oOJX7TXss for <test-3@icloud.com>;
+	Tue, 28 May 2013 10:12:01 +0200 (CEST)
+Received: from mx32.group.fagms.net (mx32.group.fagms.net [62.27.57.32])
+	by spool.mail.gandi.net (Postfix) with ESMTP id C8E1319F3C0
+	for <test-3@icloud.com>; Tue, 28 May 2013 10:11:58 +0200 (CEST)
+X-CSA-Complaints: whitelist-complaints@eco.de
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=news.groupon.ch;
+	s=S20120300; t=1369728717; bh=WNkFEuvGrE7h9ckEhV7Vdc5JcGI=;
+	h=To:From;
+	b=hyXLlRXzXLrsjzrooL/Vmjs53KSoBuwa6aJEde6reYj1ULhGpKMlJy5xCdGhE26k+
+	 CNep23rURK1tkaAXd9eKTKb4aI4zAzfg/WLkNkQY4h5nkxh84dmMYtXLfSWUmcphyR
+	 /lYR8RqNHo3q8PGStIKoqtR37NpUVmjBykgBejQc=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=s1024; d=news.groupon.ch;
+	b=mfhxIZvyqb5afnzVSQF50QP+RNbEiGhPe57jqBJJ7OCsbhLjmWIYkxCl5i9kS9OAsMF81cqwPWjUIpe6p97LggTFyFc41De/c0UZDIAEPmZ2E1j6vcWlhEpMk4tEDgstMV/gsnly8Yzg/We70u2V/2oV53st86kQYlnGnN8/BoI=;
+	h=To:From:Reply-To:Subject:X-EMID:X-EMGUID:X-EMMAIL:X-GRconfirmation:Content-Type:Message-Id:MIME-Version:Date;
+To: test-3@icloud.com
+From: "Groupon" <info@news.groupon.ch>
+Reply-To: "Groupon" <info-GUID6YZBVTUUF66IRQRQGLIQ@news.groupon.ch>
+Subject: =?ISO-8859-1?B?Q29uZmlybWV6IGwnaW5zY3JpcHRpb24g4CBsYSBuZXdzbGV0dGVy?=
+X-EMID: 1A001DP02VE0O520146CTBR
+X-EMGUID: 6YZBVTUUF66IRQRQGLIQ
+X-EMMAIL: test-3@icloud.com
+X-GRconfirmation:  1
+Content-Type: multipart/alternative;
+  boundary="--130528101156TA.13164.Texte--"
+Message-Id: <130528101156TB.13164@mssysweb07>
+MIME-Version: 1.0
+Date: Tue, 28 May 2013 10:11:56 +0200
+
+----130528101156TA.13164.Texte--
+Content-Type: text/plain;
+  charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Ajoutez "info@news.groupon.ch" à vos contacts pour être certain de recevoir les e-mails de CityDeal.
+
+Si cet e-mail ne s'affiche pas correctement, visualisez la version en ligne:
+http://news.groupon.ch/c/dc?t=ol&p=bee.6YZBVTUUF66IRQRQGLIQ.TAT65WFFAC
+
+--
+
+Confirmez votre inscription à la newsletter
+
+--
+
+Vous avez presque terminé ! Pour que nous puissions vous envoyer des offres personnalisées (bons plans de votre ville, shopping et voyages), veuillez confirmer votre inscription en cliquant sur le lien ci-dessous :
+
+Confirmer l’inscription:
+http://www.groupon.ch/citynews/optin/2a1fc34c-3bc8-44f9-9526-7084f37d7fb0?nlp=&CID=CH_CRM_11_0_0_148&a=2338&qdoix=
+
+---
+
+Quelle est l’étape suivante ?
+
+Une fois votre inscription confirmée, nous vous enverrons les meilleures offres de votre ville, shopping et voyages.
+
+Ces dernières seront personnalisées en fonction de votre profil : de votre emplacement géographique, de votre historique de navigation et d'achats et de toutes les informations que vous nous fournissez ou que nous récoltons grâce à vos visites sur notre site internet.
+
+Par la suite, vous pourrez demander à ne plus recevoir nos newsletters ou à personnaliser votre inscription en accédant directement à vos abonnements (vous pouvez y accéder facilement grâce au lien situé en bas de chacune des newsletters que nous envoyons).
+
+Si vous possédez déjà un compte Groupon, vous pouvez également gérer vos inscriptions en vous connectant directement à votre profil.
+
+Dans le cas où vous n'auriez pas encore confirmé votre inscription, nous nous permettrons de vous envoyer des emails de rappel pour que vous puissiez la compléter
+
+L'équipe Groupon
+
+---
+
+
+---
+
+Pour toutes vos questions, contactez notre service membre
+
+Téléphone : 044 278 77 16
+Email : servicemembre@groupon.ch
+
+FAQ: http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QN00NEG74M&UID=6YZBVTUUF66IRQRQGLIQ&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/faq?nlp=&CID=CH_CRM_11_0_0_148&a=2338
+Blog: http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QO00E71SFM&UID=6YZBVTUUF66IRQRQGLIQ&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://blog.groupon.ch?nlp=&CID=CH_CRM_11_0_0_148&a=2338
+
+---
+
+
+
+--
+
+(c) Groupon.ch est un service proposé par Groupon CH GmbH
+
+Mentions légales: http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QM010HODRU&UID=6YZBVTUUF66IRQRQGLIQ&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/mentions_legales?nlp=&CID=CH_CRM_11_0_0_148&a=2338
+
+PDG: Dr. Jens Hutzschenreuter, Mark S. Hoyt - Inscrit au registre du commerce du canton de Zurich, CH-020-4-042-334-0
+
+
+
+
+----130528101156TA.13164.Texte--
+Content-Type: text/html;
+  charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-CH" lang="fr-CH">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Confirmez votre inscription à la newsletter</title>
+</head>
+<body bgcolor="#82b04d" style="font-family:Arial, Helvetica, sans-serif; text-align:left;"><img src="http://news.groupon.ch/c/r?ACTION=hi&EMID=0A002VE0O520146CTBR&UID=6YZBVTUUF66IRQRQGLIQ" border="0" width="1" height="1"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#82b04d" style="font-size:12px; color:#424242; text-align:left;"><tr>
+<td align="center"><table border="0" cellpadding="0" cellspacing="0"><tr>
+<td align="center" valign="top" style="padding-bottom:6px;"><font style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333;"><a target="_blank" href="http://news.groupon.ch/c/dc?t=ol&p=bee.6YZBVTUUF66IRQRQGLIQ.TAT65WFFAC" style="color:#333333; text-decoration:underline;"><font style="color:#333333;">version en ligne</font></a> &nbsp;|&nbsp; Ajouter "info@news.groupon.ch" à mon carnet d'adresses.</font></td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td align="center"><table width="656" border="0" cellpadding="0" cellspacing="0"><tr>
+<td align="left"><table width="656" border="0" cellpadding="0" cellspacing="0" bgcolor="#333333"><tr>
+<td width="10" height="38" align="left" valign="top" bgcolor="#333333"><img src="http://static.ch.groupon-content.net/newsletter_ums/basic/frame_top_left_bg.gif" width="10" height="10" alt="" style="display:block;" /></td>
+<td width="130" height="38" align="left" valign="bottom" bgcolor="#333333"><a target="_blank" href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QI004SOALE&UID=6YZBVTUUF66IRQRQGLIQ&newsletter_town_url=lucerne_fr&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/deals/lucerne_fr?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff; text-decoration:none;"><font style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff;"><strong><img src="http://static.ch.groupon-content.net/newsletter_ums/basic/logo_groupon_top_fr_CH.gif" width="130" height="38" border="0" style="display:block;" alt="Groupon" /></strong></font></a></td>
+<td width="10" height="38" bgcolor="#333333">&nbsp; </td>
+<td height="38" align="left" valign="middle" bgcolor="#333333"><font style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#ffffff;"><a href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QI004SOALE&UID=6YZBVTUUF66IRQRQGLIQ&newsletter_town_url=lucerne_fr&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/deals/lucerne_fr?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="color:#ffffff; text-decoration:none;" target="_blank"><font style="color:#ffffff;"><strong>Confirmez votre inscription à la newsletter</strong></font></a></font></td>
+<td height="38" align="right" valign="middle" bgcolor="#333333"><font style="font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff;"><a href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QI004SOALE&UID=6YZBVTUUF66IRQRQGLIQ&newsletter_town_url=lucerne_fr&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/deals/lucerne_fr?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="color:#ffffff; text-decoration:none;" target="_blank"><font style="color:#ffffff;">28.05.2013</font></a></font></td>
+<td width="24" height="38" align="right" valign="top" bgcolor="#333333"><img src="http://static.ch.groupon-content.net/newsletter_ums/basic/frame_top_right_bg.gif" width="10" height="10" alt="" style="display:block;" /></td>
+</tr>
+</table><table width="656" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff"><tr>
+<td width="10" height="28" align="left" valign="top"><img src="http://static.ch.groupon-content.net/newsletter_ums/basic/blue_line_10x22.gif" width="10" height="22" border="0" style="display:block;" alt="" /></td>
+<td width="130" height="28" align="left" valign="top"><a target="_blank" href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QI004SOALE&UID=6YZBVTUUF66IRQRQGLIQ&newsletter_town_url=lucerne_fr&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/deals/lucerne_fr?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff; text-decoration:none;"><font style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff;"><strong><img src="http://static.ch.groupon-content.net/newsletter_ums/basic/logo_groupon_bot_fr_CH.gif" width="130" height="22" border="0" style="display:block;" alt="" /></strong></font></a></td>
+<td width="516" height="28" align="left" valign="top"><img src="http://static.ch.groupon-content.net/newsletter_ums/basic/blue_line_10x22.gif" width="516" height="22" border="0" style="display:block;" alt="" /></td>
+</tr>
+</table><table width="656" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff"><tr>
+<td width="656" align="center" valign="top"><table width="656" border="0" cellpadding="0" cellspacing="0"><tr>
+<td width="656" align="center" valign="top"><table width="630" border="0" cellpadding="9" cellspacing="0"><tr>
+<td width="612" align="left" valign="top"><font style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; line-height:1.3em;"><strong>Confirmez votre inscription à la newsletter</strong><br /><br />Vous avez presque terminé ! Pour que nous puissions vous envoyer des offres personnalisées (bons plans de votre ville, shopping et voyages), veuillez confirmer votre inscription en cliquant sur le lien ci-dessous :</font></td>
+</tr>
+</table><table border="0" cellpadding="0" cellspacing="0"><tr>
+<td width="10" height="44" align="right" valign="middle" bgcolor="#ff7200"><img src="http://static.ch.groupon-content.net/mail_img/global/basic/btn_orange_44_left.gif" width="10" height="44" border="0" alt="" style="display:block;" /></td>
+<td width="25" height="44" align="right" valign="middle" bgcolor="#ff7200"><a href="http://www.groupon.ch/citynews/optin/2a1fc34c-3bc8-44f9-9526-7084f37d7fb0?nlp=&CID=CH_CRM_11_0_0_148&a=2338&qdoix=" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff; text-decoration:none;" target="_blank"><font style="color:#ffffff;"><img src="http://static.ch.groupon-content.net/mail_img/global/basic/btn_orange_arrow_right.gif" width="25" height="24" border="0" alt="&raquo;" style="display:block;" /></font></a></td>
+<td height="44" align="center" valign="middle" bgcolor="#ff7200"><a href="http://www.groupon.ch/citynews/optin/2a1fc34c-3bc8-44f9-9526-7084f37d7fb0?nlp=&CID=CH_CRM_11_0_0_148&a=2338&qdoix=" style="font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ffffff; text-decoration:none;" target="_blank">&nbsp;&nbsp;<font style="color:#ffffff;">Confirmer l'inscription</font>&nbsp;&nbsp;</a></td>
+<td width="10" height="44" align="left" valign="middle" bgcolor="#ff7200"><img src="http://static.ch.groupon-content.net/mail_img/global/basic/btn_orange_44_right.gif" width="10" height="44" border="0" alt="" style="display:block;" /></td>
+</tr>
+</table><table width="630" border="0" cellpadding="9" cellspacing="0"><tr>
+<td width="612" align="left" valign="top"><font style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; line-height:1.3em;">&nbsp;<br /><strong>Quelle est l'étape suivante ?</strong><br /><br />Une fois votre inscription confirmée, nous vous enverrons les meilleures offres de votre ville, shopping et voyages.<br /><br />Ces dernières seront personnalisées en fonction de votre profil : de votre emplacement géographique, de votre historique de navigation et d'achats et de toutes les informations que vous nous fournissez ou que nous récoltons grâce à vos visites sur notre site internet.<br />
+<br />Par la suite, vous pourrez demander à ne plus recevoir nos newsletters ou à personnaliser votre inscription en accédant directement à vos abonnements (vous pouvez y accéder facilement grâce au lien situé en bas de chacune des newsletters que nous envoyons).<br /><br />Si vous possédez déjà un compte Groupon, vous pouvez également gérer vos inscriptions en vous connectant directement à votre profil.<br /><br />Dans le cas où vous n'auriez pas encore confirmé votre inscription, nous nous permettrons de vous envoyer des emails de rappel pour que vous puissiez la compléter<br /><br />L'équipe Groupon</font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td height="6" align="center" bgcolor="#deeccc">
+<!-- CNT_footer_service_fr_CH_104158_ums/subcontent_1 -->
+<table width="656" border="0" cellpadding="7" cellspacing="0">
+	<tr>
+		<td align="center" valign="top"><font style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#373737;" face="Arial, Helvetica, sans-serif"><strong>Pour toutes vos questions, contactez notre service membre</strong><br />Téléphone 044 278 77 16* &nbsp;|&nbsp; Email: servicemembre@groupon.ch &nbsp;|&nbsp; <a target="_blank" href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QK00IEB627&UID=6YZBVTUUF66IRQRQGLIQ&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/faq?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="color:#0891be; text-decoration:none;"><font style="color:#0891be;">FAQ</font></a> &nbsp;|&nbsp; <a target="_blank" href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VE222B015CFPIA&UID=6YZBVTUUF66IRQRQGLIQ&facebook_id=pages%2Fgroup%2F312386792095&RED=http://www.facebook.com/pages/group/312386792095" style="color:#0891be; text-decoration:none;"><font style="color:#0891be;">Facebook</font></a> &nbsp;|&nbsp; <a target="_blank" href="htt
+ p://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QL009FBMEL&UID=6YZBVTUUF66IRQRQGLIQ&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://blog.groupon.ch?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="color:#0891be; text-decoration:none;"><font style="color:#0891be;">Blog</font></a><br /><font style="font-size:10px;">Notre service membre est ouvert de 9h à 18h du lundi au vendredi et de 9h à 16h le samedi.</font></font></td>
+	</tr>
+</table>
+<!-- /CNT_footer_service_fr_CH_104158_ums/subcontent_1 -->
+
+</td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td align="center">
+<!-- CNT_footer_legal_fr_CH_104155_ums/subcontent_1 -->
+<table class="legal" width="656" border="0" cellpadding="10" cellspacing="0">
+	<tr>
+		<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="center" valign="top"><font style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#deeccc;" face="Arial, Helvetica, sans-serif">&copy; Groupon.ch est un service proposé par Groupon CH GmbH &nbsp;|&nbsp; <a target="_blank" href="http://news.groupon.ch/c/r?ACTION=ri&EMID=08G02VEL7QJ00RGT2GJ&UID=6YZBVTUUF66IRQRQGLIQ&url_param=CID%3DCH_CRM_11_0_0_148%26a%3D2338&RED=http://www.groupon.ch/mentions_legales?nlp=&CID=CH_CRM_11_0_0_148&a=2338" style="color:#deeccc;"><font style="color:#deeccc;">Mentions légales</font></a><br />PDG: Dr. Jens Hutzschenreuter, Mark S. Hoyt - Inscrit au registre du commerce du canton de Zurich, CH-020-4-042-334-0</font></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!-- /CNT_footer_legal_fr_CH_104155_ums/subcontent_1 -->
+
+</td>
+</tr>
+</table>
+</body>
+</html>
+----130528101156TA.13164.Texte----

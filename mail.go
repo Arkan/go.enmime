@@ -117,11 +117,13 @@ func ParseMIMEBody(mailMsg *mail.Message) (*MIMEBody, error) {
 
     // Locate attachments
     mimeMsg.Attachments = BreadthMatchAll(root, func(p MIMEPart) bool {
+      // Do not include the parts if they are already present as text or html
       return p.Disposition() == "attachment" && string(p.Content()) != mimeMsg.Html && string(p.Content()) != mimeMsg.Text
     })
 
     // Locate inlines
     mimeMsg.Inlines = BreadthMatchAll(root, func(p MIMEPart) bool {
+      // Do not include the parts if they are already present as text or html
       return p.Disposition() == "inline" && string(p.Content()) != mimeMsg.Html && string(p.Content()) != mimeMsg.Text
     })
   }
