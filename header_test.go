@@ -110,6 +110,15 @@ func TestAsciiB64(t *testing.T) {
   assert.Equal(t, expect, result)
 }
 
+// Try decoding a simple ASCII quoted-printable encoded word
+func TestIso8859_1(t *testing.T) {
+  input := `"=?iso-8859-1?Q?Mcd_Mutuelle_recommand=E9e_p?=
+    =?iso-8859-1?Q?ar_Eshopdeal?=" <contact@mon.eshopdeal.com>"`
+  expect := "Mcd Mutuelle recommandée par Eshopdeal <contact@mon.eshopdeal.com>"
+  result := decodeHeader(input)
+  assert.Equal(t, expect, result)
+}
+
 // Try decoding an embedded ASCII quoted-printable encoded word
 func TestEmbeddedAsciiQ(t *testing.T) {
   // This is not legal, so we expect it to fail

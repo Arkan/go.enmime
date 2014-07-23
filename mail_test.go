@@ -356,6 +356,24 @@ func Test11(t *testing.T) {
   assert.Equal(t, mime.Text, "Grunt\r\n\r\n\n--\n\r\n\r\nJames Hillyerd\r\n\r\nYoupi\r\n\r\n\n--\n\r\n\r\n\r\nEndGrunt")
 }
 
+func Test12(t *testing.T) {
+  msg := readMessage("12-latin_1_from.eml")
+  mime, err := ParseMIMEBody(msg)
+  if err != nil {
+    t.Fatalf("Failed to parse non-MIME: %v", err)
+  }
+  _ = mime
+  assert.Equal(t, mime.GetHeader("Subject"), "Votre mutuelle à partir de 6.62 euros, devis gratuit et sans engagement")
+  fmt.Printf("Subject: %v  \n", mime.GetHeader("Subject"))
+  fmt.Printf("From: %v  \n", mime.GetHeader("From"))
+  fmt.Printf("To: %v  \n", mime.GetHeader("To"))
+
+  assert.Equal(t, len(mime.Attachments), 0)
+  assert.Equal(t, len(mime.Inlines), 0)
+  assert.Equal(t, msg.Header.Get("MESSAGE-ID"), "<e558ae7608c0d4e7a4e55f003c47be9b6bb9cf5ad3e26c0318d98dfaac977090e49fb5f1a19899a8@mon.eshopdeal.com>")
+  assert.Equal(t, msg.Header.Get("DATE"), "Wed, 23 Jul 2014 04:37:56 GMT")
+}
+
 // readMessage is a test utility function to fetch a mail.Message object.
 func readMessage(filename string) *mail.Message {
   // Open test email for parsing
