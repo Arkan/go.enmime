@@ -374,6 +374,16 @@ func Test12(t *testing.T) {
   assert.Equal(t, msg.Header.Get("DATE"), "Wed, 23 Jul 2014 04:37:56 GMT")
 }
 
+func Test13(t *testing.T) {
+  msg := readMessage("13-B64-subject.eml")
+  mime, err := ParseMIMEBody(msg)
+  if err != nil {
+    t.Fatalf("Failed to parse non-MIME: %v", err)
+  }
+  _ = mime
+  assert.Equal(t, mime.GetHeader("Subject"), "Smartphones à prix cassés")
+}
+
 // readMessage is a test utility function to fetch a mail.Message object.
 func readMessage(filename string) *mail.Message {
   // Open test email for parsing

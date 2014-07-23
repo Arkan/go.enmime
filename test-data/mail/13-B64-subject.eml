@@ -1,0 +1,418 @@
+X-Account-Key: account1
+X-UIDL: 0000ed104a890029
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:
+Return-Path: <bounce2@newszacu.com>
+Delivered-To: youpi@company.com
+Received: from spool.mail.gandi.net (mspool4-d.mgt.gandi.net [10.0.21.135])
+	by nmboxes4-d.mgt.gandi.net (Postfix) with ESMTP id B94A61B14B2
+	for <youpi@company.com>; Wed, 16 Jul 2014 11:37:33 +0200 (CEST)
+Received: from mfilter31-d.gandi.net (mfilter31-d.gandi.net [217.70.178.162])
+	by spool.mail.gandi.net (Postfix) with ESMTP id B241714227C
+	for <youpi@company.com>; Wed, 16 Jul 2014 11:37:33 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter31-d.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.135])
+	by mfilter31-d.gandi.net (mfilter31-d.gandi.net [10.0.15.180]) (amavisd-new, port 10024)
+	with ESMTP id 0zPZTDF2LDVg for <youpi@company.com>;
+	Wed, 16 Jul 2014 11:37:32 +0200 (CEST)
+Received: from mail09.newszacu.com (mail09.newszacu.com [83.136.213.76])
+	by spool.mail.gandi.net (Postfix) with ESMTP id A77EA14220C
+	for <shopwat@neuraxe.com>; Wed, 16 Jul 2014 11:37:28 +0200 (CEST)
+Received: from compute01 (unknown [192.168.20.213])
+	by mail09.newszacu.com (Postfix) with SMTP id 1A8B41986B5
+	for <shopwat@neuraxe.com>; Wed, 16 Jul 2014 11:37:28 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=newszacu.com; s=k1;
+	t=1405503448; bh=HIdR3vzWeXc1ZZxumV0OcIYPLXwcOqy6U5VmLzad0vQ=;
+	h=From:To:Reply-To:Subject:MIME-Version:X-Feedback-ID:
+	 List-Unsubscribe:Content-Type:Content-Transfer-Encoding:Message-Id:
+	 Date;
+	b=aUbg3ZJdBlV2VTZaUHcU35OkAzXscqDEKEpP1kZ96egoYjQIkhEkbI7LKc4YwxW34
+	 jH/jciz5G2mrv/MUaFO9LmrC1I2yd3hgAWpwT0+1Jf98/yMZQf+DQCcubOFmwswVl5
+	 0Q/eGITDkl1gOcW+1/0a7gGL/Yh/20HWAs/Mi50g=
+From: "Sarah" <sophie@newszacu.com>
+To: shopwat@neuraxe.com
+Reply-To: "sarah@newszacu.com" <sarah@newszacu.com>
+Subject: =?UTF-8?B?U21hcnRwaG9uZXMgw6AgcHJpeCBjYXNzw6lzAA==?=
+MIME-Version: 1.0
+X-Mailer: Edatis Mailing Software
+X-Dialog-Version: 7.0
+X-EDATIS-ID: cfRyah8gpbU31tYaccElw0_qVtv-Y0fIVOnrX0LPJt_jcc
+X-Feedback-ID: 300067:483:EDATIS
+List-Unsubscribe: <mailto:unsubscribe@newszacu.com?subject=unsubscribe&body=XEDATISID:cfRyah8gpbU31tYaccElw0_qVtv-Y0fIVOnrX0LPJt_jcc>,<http://tracking.newszacu.com/tracking/unsubscribe/ccnRyah8gpbU31tYx/iChB1-letuWprew5TBuwa_bUXTSnkLDqnKnx5vcblbo>
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20140716093728.1A8B41986B5@mail09.newszacu.com>
+Date: Wed, 16 Jul 2014 11:37:28 +0200 (CEST)
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
+     <head>
+          <title></title>
+=20=20=20=20=20
+<style>
+@media only screen and (min-width:480px) and (max-width:799px){
+                            img[class=3Dedttkg-pix]{=20
+                                background: url("http://tracking.newszacu.c=
+om/tracking/soldetoo/cEsRyah8gpbU31tYEEc/responsive");
+                            }
+                         }@media only screen and (max-width:239px) {
+                      img[class=3Dedttkg-pix]{
+                           background: url("http://tracking.newszacu.com/tr=
+acking/soldetoo/ccsRyah8gpbU31tYEcY/responsive");
+                       }=20=20=20
+                    }@media only screen and (min-width:320px) and (max-widt=
+h:479px){
+                            img[class=3Dedttkg-pix]{=20
+                                background: url("http://tracking.newszacu.c=
+om/tracking/soldetoo/ccnRyah8gpbU31tYEcq/responsive");
+                            }
+                         }@media only screen and (min-width:240px) and (max=
+-width:319px){
+                            img[class=3Dedttkg-pix]{=20
+                                background: url("http://tracking.newszacu.c=
+om/tracking/soldetoo/ccnRyah8gpbU31tYEc1/responsive");
+                            }
+                         }</style></head><body bgcolor=3D"#FFFFFF" style=3D=
+"background-color: #FFFFFF; font-family: sans-serif; margin-bottom: 0; marg=
+in-left: 0px; margin-right: 0; margin-top: 0px; padding-bottom: 0; padding-=
+left: 0; padding-right: 0; padding-top: 0px; width: 100%">
+=20=20=20=20=20
+          <div style=3D"text-align: center;">
+               Si vous ne visualisez pas ce message, <a href=3D"http://trac=
+king.newszacu.com/tracking/soldetoo/ccsRyah8gpbU31tY4cc/iChB1-letuWprew5TBu=
+wa_bUXTSnkLDqnKnx5vcblbo" target=3D"_blank">Visualiser la version en ligne<=
+/a></div>
+          <table align=3D"center" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"background-color: #FFFFFF; border-bottom-style: non=
+e; border-bottom-width: 0px; border-collapse: collapse; border-left-style: =
+none; border-left-width: 0px; border-right-style: none; border-right-width:=
+ 0px; border-spacing: 0px; border-top-style: none; border-top-width: 0px; m=
+argin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; pa=
+dding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px"=
+ width=3D"100%">
+               <tbody>
+                    <tr align=3D"center" style=3D"border-bottom-style: none=
+; border-bottom-width: 0px; border-collapse: collapse; border-left-style: n=
+one; border-left-width: 0px; border-right-style: none; border-right-width: =
+0px; border-spacing: 0px; border-top-style: none; border-top-width: 0px">
+                         <td align=3D"center" style=3D"border-bottom-style:=
+ none; border-bottom-width: 0px; border-collapse: collapse; border-left-sty=
+le: none; border-left-width: 0px; border-right-style: none; border-right-wi=
+dth: 0px; border-spacing: 0px; border-top-style: none; border-top-width: 0p=
+x" valign=3D"top">
+                              <table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"border-bottom-style: none; border-bott=
+om-width: 0px; border-collapse: collapse; border-left-style: none; border-l=
+eft-width: 0px; border-right-style: none; border-right-width: 0px; border-s=
+pacing: 0px; border-top-style: none; border-top-width: 0px; margin-bottom: =
+0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: =
+0px; padding-left: 0px; padding-right: 0px; padding-top: 0px" width=3D"588">
+                                   <tbody>
+                                        <tr align=3D"left" style=3D"border-=
+bottom-style: none; border-bottom-width: 0px; border-collapse: collapse; bo=
+rder-left-style: none; border-left-width: 0px; border-right-style: none; bo=
+rder-right-width: 0px; border-spacing: 0px; border-top-style: none; border-=
+top-width: 0px">
+                                             <td width=3D"588">
+                                                  <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"border-bottom-style: none; border-b=
+ottom-width: 0px; border-collapse: collapse; border-left-style: none; borde=
+r-left-width: 0px; border-right-style: none; border-right-width: 0px; borde=
+r-spacing: 0px; border-top-style: none; border-top-width: 0px; margin-top: =
+0px !important; padding-top: 0px !important" width=3D"588">
+                                                       <tbody>
+                                                            <tr align=3D"le=
+ft" style=3D"border-bottom-style: none; border-bottom-width: 0px; border-co=
+llapse: collapse; border-left-style: none; border-left-width: 0px; border-r=
+ight-style: none; border-right-width: 0px; border-spacing: 0px; border-top-=
+style: none; border-top-width: 0px">
+                                                                 <td width=
+=3D"588">
+                                                                      <tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-bottom-s=
+tyle: none; border-bottom-width: 0px; border-collapse: collapse; border-lef=
+t-style: none; border-left-width: 0px; border-right-style: none; border-rig=
+ht-width: 0px; border-spacing: 0px; border-top-style: none; border-top-widt=
+h: 0px; margin-top: 0px !important; padding-top: 0px !important" width=3D"5=
+88">
+                                                                           =
+<tbody>
+                                                                           =
+     <tr style=3D"border-bottom-width: 0; border-collapse: collapse; border=
+-left-width: 0; border-right-width: 0; border-spacing: 0px; border-top-widt=
+h: 0; height: 50px">
+                                                                           =
+          <td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"50" style=3D"bac=
+kground-color: #FFFFFF" valign=3D"top" width=3D"588">
+                                                                           =
+               <img alt=3D"" height=3D"50" src=3D"http://home.edt02.net/nop=
+rotect/300067/355/356/clear.gif" style=3D"border-bottom-width: 0; border-le=
+ft-width: 0; border-right-width: 0; border-top-width: 0; display: block; li=
+ne-height: 1; opacity: 0; padding-bottom: 0px; padding-left: 0px; padding-r=
+ight: 0px; padding-top: 0px" width=3D"1" /></td>
+                                                                           =
+     </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                                                      </tab=
+le>
+                                                                 </td>
+                                                            </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                                                  </table>
+                                             </td>
+                                        </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20
+                              </table>
+                         </td>
+                    </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+          </table>
+          <table align=3D"center" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"background-color: #FFFFFF; border-bottom-width: 0; =
+border-collapse: collapse; border-left-width: 0; border-right-width: 0; bor=
+der-spacing: 0; border-top-width: 0; margin-bottom: 0; margin-left: 0; marg=
+in-right: 0; margin-top: 0px; padding-bottom: 0; padding-left: 0; padding-r=
+ight: 0; padding-top: 0px" width=3D"100%">
+               <tbody>
+                    <tr align=3D"center" style=3D"border-bottom-width: 0; b=
+order-collapse: collapse; border-left-width: 0; border-right-width: 0; bord=
+er-spacing: 0; border-top-width: 0">
+                         <td align=3D"center" style=3D"border-bottom-width:=
+ 0; border-collapse: collapse; border-left-width: 0; border-right-width: 0;=
+ border-spacing: 0; border-top-width: 0" valign=3D"top">
+                              <table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"border-bottom-width: 0; border-collaps=
+e: collapse; border-left-width: 0; border-right-width: 0; border-spacing: 0=
+; border-top-width: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; m=
+argin-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0; paddi=
+ng-top: 0px" width=3D"588">
+                                   <tbody>
+                                        <tr align=3D"left" style=3D"border-=
+bottom-width: 0; border-collapse: collapse; border-left-width: 0; border-ri=
+ght-width: 0; border-spacing: 0; border-top-width: 0">
+                                             <td width=3D"588">
+                                                  <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"border-bottom-width: 0; border-coll=
+apse: collapse; border-left-width: 0; border-right-width: 0; border-spacing=
+: 0; border-top-width: 0; margin-top: 0px !important; padding-top: 0px !imp=
+ortant" width=3D"588">
+                                                       <tbody>
+                                                            <tr style=3D"bo=
+rder-bottom-width: 0; border-collapse: collapse; border-left-width: 0; bord=
+er-right-width: 0; border-spacing: 0; border-top-width: 0">
+                                                                 <td align=
+=3D"left" height=3D"82" style=3D"" valign=3D"top" width=3D"588">
+                                                                      <img =
+height=3D"82" src=3D"http://home.edt02.net/noprotect/300067/355/356/image-6=
+b1b7a2428c40c30c32272e28e97449e1e866f88.jpg" style=3D"border-bottom-width: =
+0; border-left-width: 0; border-right-width: 0; border-top-width: 0; displa=
+y: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding-right=
+: 0; padding-top: 0" width=3D"588" /></td>
+                                                            </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                        <tr align=3D"left" style=3D"border-=
+bottom-width: 0; border-collapse: collapse; border-left-width: 0; border-ri=
+ght-width: 0; border-spacing: 0; border-top-width: 0">
+                                             <td width=3D"588">
+                                                  <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"border-bottom-width: 0; border-coll=
+apse: collapse; border-left-width: 0; border-right-width: 0; border-spacing=
+: 0; border-top-width: 0; margin-top: 0px !important; padding-top: 0px !imp=
+ortant" width=3D"588">
+                                                       <tbody>
+                                                            <tr style=3D"bo=
+rder-bottom-width: 0; border-collapse: collapse; border-left-width: 0; bord=
+er-right-width: 0; border-spacing: 0; border-top-width: 0">
+                                                                 <td align=
+=3D"left" height=3D"323" style=3D"" valign=3D"top" width=3D"588">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/cEsRyah8gpbU31tYe-7Y">=
+<img height=3D"323" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-6788ca58768e1aa83c886b8e46eafc118951b3d3.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"588" /></a></td>
+                                                            </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                        <tr align=3D"left" style=3D"border-=
+bottom-width: 0; border-collapse: collapse; border-left-width: 0; border-ri=
+ght-width: 0; border-spacing: 0; border-top-width: 0">
+                                             <td width=3D"588">
+                                                  <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"border-bottom-width: 0; border-coll=
+apse: collapse; border-left-width: 0; border-right-width: 0; border-spacing=
+: 0; border-top-width: 0; margin-top: 0px !important; padding-top: 0px !imp=
+ortant" width=3D"588">
+                                                       <tbody>
+                                                            <tr style=3D"bo=
+rder-bottom-width: 0; border-collapse: collapse; border-left-width: 0; bord=
+er-right-width: 0; border-spacing: 0; border-top-width: 0">
+                                                                 <td align=
+=3D"left" height=3D"328" style=3D"" valign=3D"top" width=3D"588">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/cEsRyah8gpbU31tYe-7L" =
+style=3D"border-bottom-style: none; border-left-style: none; border-right-s=
+tyle: none; border-top-style: none; display: block; font-size: 10px; height=
+: 328px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; =
+padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-=
+decoration: none" target=3D"_blank"><img height=3D"328" src=3D"http://home.=
+edt02.net/noprotect/300067/355/356/image-c1b0e3ee306e7079398d0405fe52036486=
+ce67b4.jpg" style=3D"border-bottom-width: 0; border-left-width: 0; border-r=
+ight-width: 0; border-top-width: 0; display: block; line-height: 1; padding=
+-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" width=3D"588=
+" /></a></td>
+                                                            </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                        <tr align=3D"left" style=3D"border-=
+bottom-width: 0; border-collapse: collapse; border-left-width: 0; border-ri=
+ght-width: 0; border-spacing: 0; border-top-width: 0">
+                                             <td width=3D"588">
+                                                  <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"border-bottom-width: 0; border-coll=
+apse: collapse; border-left-width: 0; border-right-width: 0; border-spacing=
+: 0; border-top-width: 0; margin-top: 0px !important; padding-top: 0px !imp=
+ortant" width=3D"588">
+                                                       <tbody>
+                                                            <tr style=3D"bo=
+rder-bottom-width: 0; border-collapse: collapse; border-left-width: 0; bord=
+er-right-width: 0; border-spacing: 0; border-top-width: 0">
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"147">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/cEnRyah8gpbU31tYe-7J">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-2fb4a9c5022514c0e389575cc4c9062923d17d28.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"147" /></a></td>
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"141">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/cEnRyah8gpbU31tYe-7D">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-598712558bd2ac77f5c4fa23bf5c27cd989fb3ab.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"141" /></a></td>
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"154">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/ccsRyah8gpbU31tYe-71">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-d9e4f8c1c110b81c4b1030965898d174e9db740d.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"154" /></a></td>
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"146">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/ccsRyah8gpbU31tYe-7A">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-4f30c3eefc218076693cc0704e8664bd311f91c0.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"146" /></a></td>
+                                                            </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                                                  </table>
+                                             </td>
+                                        </tr>
+                                        <tr align=3D"left" style=3D"border-=
+bottom-width: 0; border-collapse: collapse; border-left-width: 0; border-ri=
+ght-width: 0; border-spacing: 0; border-top-width: 0">
+                                             <td width=3D"588">
+                                                  <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"border-bottom-width: 0; border-coll=
+apse: collapse; border-left-width: 0; border-right-width: 0; border-spacing=
+: 0; border-top-width: 0; margin-top: 0px !important; padding-top: 0px !imp=
+ortant" width=3D"588">
+                                                       <tbody>
+                                                            <tr style=3D"bo=
+rder-bottom-width: 0; border-collapse: collapse; border-left-width: 0; bord=
+er-right-width: 0; border-spacing: 0; border-top-width: 0">
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"148">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/ccnRyah8gpbU31tYe-7y">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-724a0a23355a47ce8f61bca94f70ffc3feef51d2.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"148" /></a></td>
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"140">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/ccnRyah8gpbU31tYe-7b">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-10679318157956dc992728239c1f7204151d844b.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"140" /></a></td>
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"154">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/cEsRyah8gpbU31tYe-7q">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-c5737507d947970931b39e1c9483ce01f404fca0.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"154" /></a></td>
+                                                                 <td align=
+=3D"left" height=3D"239" style=3D"" valign=3D"top" width=3D"146">
+                                                                      <a hr=
+ef=3D"http://tracking.newszacu.com/tracking/soldetoo/cEsRyah8gpbU31tYe-7-">=
+<img height=3D"239" src=3D"http://home.edt02.net/noprotect/300067/355/356/i=
+mage-739fa1607608a9c6c9692ea236a07d2c4e14d3b2.jpg" style=3D"border-bottom-w=
+idth: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; =
+display: block; line-height: 1; padding-bottom: 0; padding-left: 0; padding=
+-right: 0; padding-top: 0" width=3D"146" /></a></td>
+                                                            </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                                                  </table>
+                                             </td>
+                                        </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20
+                              </table>
+                         </td>
+                    </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+          </table>
+          <div style=3D"text-align: center;">
+               Si vous ne souhaitez recevoir ces offres,&nbsp; <a href=3D"h=
+ttp://tracking.newszacu.com/tracking/unsubscribe/ccnRyah8gpbU31tYx/iChB1-le=
+tuWprew5TBuwa_bUXTSnkLDqnKnx5vcblbo" target=3D"_blank">Suivez ce lien</a></=
+div>
+=20=20=20=20=20
+<table width=3D"10" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" ><tr><td width=3D"0" height=3D"0" style=3D"line-width:0px;line-=
+height:0px;"><img class=3D"edttkg-pix" id=3D"0" src=3D"http://tracking.news=
+zacu.com/tracking/soldetoo/ccnRyah8gpbU31tYE/responsive" width=3D"1" height=
+=3D"1" border=3D"0" /></td></tr></table>
+</body></html>=
+
+
