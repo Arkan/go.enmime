@@ -100,7 +100,7 @@ func (h *headerDec) accept(valid string) bool {
 func decodeHeader(input string) string {
   if !strings.Contains(input, "=?") {
     // Don't scan if there is nothing to do here
-    return input
+    return strings.TrimRight(input, "\x00")
   }
 
   h := &headerDec{
@@ -114,7 +114,7 @@ func decodeHeader(input string) string {
     h.state = h.state(h)
   }
 
-  return h.outbuf.String()
+  return strings.TrimRight(h.outbuf.String(), "\x00")
 }
 
 // State: Reset, output mangled encoded-word as plaintext

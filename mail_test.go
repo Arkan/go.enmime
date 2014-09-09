@@ -384,6 +384,28 @@ func Test13(t *testing.T) {
   assert.Equal(t, mime.GetHeader("Subject"), "Smartphones à prix cassés")
 }
 
+func Test14(t *testing.T) {
+  msg := readMessage("14-windows-1252_from.eml")
+  mime, err := ParseMIMEBody(msg)
+  if err != nil {
+    t.Fatalf("Failed to parse non-MIME: %v", err)
+  }
+  _ = mime
+  assert.Equal(t, mime.GetHeader("Subject"), "lettre de nouvelles : sortie moto - simulateur")
+}
+
+func Test15(t *testing.T) {
+  msg := readMessage("15-windows-1251_full.eml")
+  mime, err := ParseMIMEBody(msg)
+  if err != nil {
+    t.Fatalf("Failed to parse non-MIME: %v", err)
+  }
+  _ = mime
+  assert.Equal(t, mime.GetHeader("Subject"), "Новая система в индустрии рекламы")
+  assert.Equal(t, mime.Text, "Новая система в индустрии рекламы")
+  assert.Equal(t, mime.Html, "Новая система в индустрии рекламы")
+}
+
 // readMessage is a test utility function to fetch a mail.Message object.
 func readMessage(filename string) *mail.Message {
   // Open test email for parsing
