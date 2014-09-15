@@ -12,6 +12,7 @@ import (
   "strings"
 
   "github.com/sloonz/go-qprintable"
+  "code.google.com/p/go.net/html/charset"
 )
 
 // MIMEPart is the primary interface enmine clients will use.  Each MIMEPart represents
@@ -98,7 +99,8 @@ func ParseMIME(reader *bufio.Reader) (MIMEPart, error) {
   if err != nil {
     return nil, err
   }
-  mediatype, params, err := mime.ParseMediaType(header.Get("Content-Type"))
+  ctype := header.Get("Content-Type")
+  mediatype, params, err := mime.ParseMediaType(ctype)
   if err != nil {
     return nil, err
   }
@@ -112,7 +114,7 @@ func ParseMIME(reader *bufio.Reader) (MIMEPart, error) {
     }
   } else {
     // Content is text or data, decode it
-    content, err := decodeSection(header.Get("Content-Transfer-Encoding"), reader)
+    content, err := decodeSection(header.Get("Content-Transfer-Encoding"), ctype, mediatype, reader)
     if err != nil {
       return nil, err
     }
@@ -192,7 +194,7 @@ func parseParts(parent *memMIMEPart, reader io.Reader, boundary string) error {
       }
     } else {
       // Content is text or data, decode it
-      data, err := decodeSection(mrp.Header.Get("Content-Transfer-Encoding"), mrp)
+      data, err := decodeSection(mrp.Header.Get("Content-Transfer-Encoding"), ctype, mediatype, mrp)
       if err != nil {
         return err
       }
@@ -206,11 +208,11 @@ func parseParts(parent *memMIMEPart, reader io.Reader, boundary string) error {
 // decodeSection attempts to decode the data from reader using the algorithm listed in
 // the Content-Transfer-Encoding header, returning the raw data if it does not known
 // the encoding type.
-func decodeSection(encoding string, reader io.Reader) ([]byte, error) {
+func decodeSection(transfer_encoding string, content_type string, mediatype string, reader io.Reader) ([]byte, error) {
   // Default is to just read input into bytes
   decoder := reader
 
-  switch strings.ToLower(encoding) {
+  switch strings.ToLower(transfer_encoding) {
   case "quoted-printable":
     decoder = qprintable.NewDecoder(qprintable.WindowsTextEncoding, reader)
   case "base64":
@@ -218,11 +220,28 @@ func decodeSection(encoding string, reader io.Reader) ([]byte, error) {
     decoder = base64.NewDecoder(base64.StdEncoding, cleaner)
   }
 
-  // Read bytes into buffer
-  buf := new(bytes.Buffer)
-  _, err := buf.ReadFrom(decoder)
-  if err != nil {
-    return nil, err
+  if len(mediatype) > 4  && mediatype[0:5] == "text/" {
+    // Decode text to utf-8
+    readerInUTF8, err := charset.NewReader(decoder, content_type)
+    if err != nil {
+      return nil, err
+    }
+    buf := new(bytes.Buffer)
+    _, err = buf.ReadFrom(readerInUTF8)
+    if err != nil {
+      return nil, err
+    }
+    return buf.Bytes(), nil
+
+  } else {
+    // Pass raw data
+    buf := new(bytes.Buffer)
+    _, err := buf.ReadFrom(decoder)
+    if err != nil {
+      return nil, err
+    }
+    return buf.Bytes(), nil
+
   }
-  return buf.Bytes(), nil
+  // Read bytes into buffer
 }

@@ -20,13 +20,7 @@ type MIMEBody struct {
 // IsMultipartMessage returns true if the message has a recognized multipart Content-Type
 // header.  You don't need to check this before calling ParseMIMEBody, it can handle
 // non-multipart messages.
-func IsMultipartMessage(mailMsg *mail.Message) bool {
-  // Parse top-level multipart
-  ctype := mailMsg.Header.Get("Content-Type")
-  mediatype, _, err := mime.ParseMediaType(ctype)
-  if err != nil {
-    return false
-  }
+func IsMultipart(mediatype string) bool {
   switch mediatype {
   case "multipart/alternative",
     "multipart/mixed",
@@ -44,24 +38,22 @@ func IsMultipartMessage(mailMsg *mail.Message) bool {
 // MIMEPart object.
 func ParseMIMEBody(mailMsg *mail.Message) (*MIMEBody, error) {
   mimeMsg := &MIMEBody{header: mailMsg.Header}
+  ctype := mailMsg.Header.Get("Content-Type")
+  mediatype, _, _ := mime.ParseMediaType(ctype)
 
-  if !IsMultipartMessage(mailMsg) {
-    // Parse as text only
+  if !IsMultipart(mediatype) {
+    // Mono part
     bodyBytes, err := decodeSection(mailMsg.Header.Get("Content-Transfer-Encoding"),
-      mailMsg.Body)
+      ctype, mediatype, mailMsg.Body)
     if err != nil {
       return nil, fmt.Errorf("Error decoding text-only message: %v", err)
     }
-    mimeMsg.Text = string(bodyBytes)
 
     // Check for HTML at top-level, eat errors quietly
-    ctype := mailMsg.Header.Get("Content-Type")
-    if ctype != "" {
-      if mediatype, _, err := mime.ParseMediaType(ctype); err == nil {
-        if mediatype == "text/html" {
-          mimeMsg.Html = mimeMsg.Text
-        }
-      }
+    if mediatype == "text/html" {
+      mimeMsg.Html = string(bodyBytes)
+    } else {
+      mimeMsg.Text = string(bodyBytes)
     }
   } else {
     // Parse top-level multipart
