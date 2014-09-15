@@ -406,6 +406,17 @@ func Test15(t *testing.T) {
   assert.Equal(t, "Новая система в индустрии рекламы", mime.Html)
 }
 
+func Test16(t *testing.T) {
+  msg := readMessage("16-latin_1_text_body.eml")
+  mime, err := ParseMIMEBody(msg)
+  if err != nil {
+    t.Fatalf("Failed to parse non-MIME: %v", err)
+  }
+  _ = mime
+  assert.Equal(t, "\r\nj'ai vu que tu as supprimé tous les magasins dans les marchés, merci \r\nbeaucoup!\r\n", mime.Text, "Should decode latin1 body")
+}
+
+
 // readMessage is a test utility function to fetch a mail.Message object.
 func readMessage(filename string) *mail.Message {
   // Open test email for parsing
