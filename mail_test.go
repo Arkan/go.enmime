@@ -4,11 +4,11 @@ import (
   "bufio"
   "bytes"
   "fmt"
+  "mime"
   "net/mail"
   "os"
   "path/filepath"
   "testing"
-  "mime"
 
   "github.com/stretchr/testify/assert"
 )
@@ -427,7 +427,6 @@ func Test16(t *testing.T) {
   _ = mime
   assert.Equal(t, "\r\nj'ai vu que tu as supprimé tous les magasins dans les marchés, merci \r\nbeaucoup!\r\n", mime.Text, "Should decode latin1 body")
 }
-
 
 // readMessage is a test utility function to fetch a mail.Message object.
 func readMessage(filename string) *mail.Message {

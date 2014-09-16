@@ -37,6 +37,8 @@ type headerDec struct {
   pos      int     // Current parsing position
   charset  string  // Character set of current encoded word
   encoding string  // Encoding of current encoded word
+  in_qs    bool    // In quoted string
+  r_size   int     // Last rune size
   outbuf   bytes.Buffer
 }
 
@@ -50,15 +52,47 @@ func (h *headerDec) next() rune {
   if h.eof() {
     return eof
   }
-  r := h.input[h.pos]
-  h.pos++
+  r := h.input[h.pos];
+	switch {
+	case r == '"' || r == 0:
+    debug("### quote encountered")
+    h.in_qs = !h.in_qs
+    h.r_size = 2
+    h.input[h.pos] = 0
+	case h.in_qs == true && r == '\\':
+    debug("### escape encountered")
+		h.r_size = 2
+	case h.in_qs == true && isQtext(r), r == ' ' || r == '\t':
+    debug("### char in quote : %q", r)
+		// qtext (printable US-ASCII excluding " and \), or
+		// FWS (almost; we're ignoring CRLF)
+		h.r_size = 1
+  case h.in_qs == false:
+    debug("### char not in quote : %q", r)
+    h.r_size = 1
+	default:
+	  debug("mail: bad character in quoted-string: %q", r)
+    h.r_size = 1
+	}
+  if h.r_size == 2 {
+		if h.pos + 1 == len(h.input) {
+			debug("enmime: unclosed quoted-string")
+      return eof
+		}
+    r = h.input[h.pos + 1]
+  }
+  debug ("### r is now : %q", r)
+  h.pos += h.r_size
   return rune(r)
 }
 
 // backup a single rune
 func (h *headerDec) backup() {
   if h.pos > 0 {
-    h.pos--
+    h.pos -= h.r_size
+    if h.input[h.pos] == '"' {
+      h.in_qs = !h.in_qs
+    }
   }
 }
 
@@ -80,7 +114,13 @@ func (h *headerDec) ignore() {
 // output will append all input from start to pos (inclusive) to outbuf
 func (h *headerDec) output() {
   if h.pos > h.start {
-    h.outbuf.Write(h.input[h.start:h.pos])
+    debug("### Outputting %s ", h.input[h.start:h.pos])
+    for i := h.start; i < h.pos; i++ {
+      if h.input[i] != 0 {
+        h.outbuf.WriteByte(h.input[i])
+      }
+    }
+    //h.outbuf.Write(h.input[h.start:h.pos])
     h.start = h.pos
   }
 }
@@ -106,6 +146,7 @@ func decodeHeader(input string) string {
   h := &headerDec{
     input: []byte(input),
     state: plainSpaceState,
+    in_qs: false,
   }
 
   debug("Starting parse of: '%v'\n", input)
@@ -293,6 +334,8 @@ Loop:
 // Convert the encTextBytes to UTF-8 and return as a string
 func convertText(charsetName string, encoding string, encTextBytes []byte) (string, error) {
   // Setup mahonia to convert bytes to UTF-8 string
+
+  // TODO : mahonia is deprecated. Use official golang packages.
   charset := mahonia.GetCharset(charsetName)
   if charset == nil {
     // Unknown charset
@@ -372,4 +415,13 @@ func isTokenChar(ch rune) bool {
   }
   // No especials
   return !isEspecialChar(ch)
+}
+
+// isQtext returns true if c is an RFC 5322 qtext character.
+func isQtext(c byte) bool {
+	// Printable US-ASCII, excluding backslash or quote.
+	if c == '\\' || c == '"' {
+		return false
+	}
+	return '!' <= c && c <= '~'
 }
