@@ -373,10 +373,8 @@ func Test12(t *testing.T) {
   }
   _ = mime
   assert.Equal(t, "Votre mutuelle à partir de 6.62 euros, devis gratuit et sans engagement", mime.GetHeader("Subject"))
-  fmt.Printf("Subject: %v  \n", mime.GetHeader("Subject"))
-  fmt.Printf("From: %v  \n", mime.GetHeader("From"))
-  fmt.Printf("To: %v  \n", mime.GetHeader("To"))
-
+  assert.Equal(t, "Mcd Mutuelle recommandée par Eshopdeal <contact@mon.eshopdeal.com>", mime.GetHeader("From"))
+  assert.Equal(t, "gamewat@neuraxe.com", mime.GetHeader("To"))
   assert.Equal(t, 0, len(mime.Attachments))
   assert.Equal(t, 0, len(mime.Inlines))
   assert.Equal(t, "<e558ae7608c0d4e7a4e55f003c47be9b6bb9cf5ad3e26c0318d98dfaac977090e49fb5f1a19899a8@mon.eshopdeal.com>", msg.Header.Get("MESSAGE-ID"))
