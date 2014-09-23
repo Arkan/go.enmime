@@ -1,6 +1,8 @@
 package enmime
 
 import (
+  "crypto/sha256"
+  "encoding/hex"
   "fmt"
   "mime"
   "net/mail"
@@ -126,4 +128,25 @@ func ParseMIMEBody(mailMsg *mail.Message) (*MIMEBody, error) {
 // Process the specified header for RFC 2047 encoded words and return the result
 func (m *MIMEBody) GetHeader(name string) string {
   return decodeHeader(m.header.Get(name))
+}
+
+func (m *MIMEBody) generateMessageId() string {
+  key := ""
+  tld := "revapost.com"
+  key += m.GetHeader("FROM")
+  key += m.GetHeader("TO")
+  key += m.GetHeader("CC")
+  key += m.GetHeader("DATE")
+  hash := sha256.New()
+  hash.Write([]byte(key))
+  hashComputed := hash.Sum(nil)
+  result := hex.EncodeToString(hashComputed)
+  return fmt.Sprintf("<%s-auto-generated@%s>", result, tld)
+}
+
+func (m *MIMEBody) MessageId() string {
+  if messageId := m.GetHeader("Message-Id"); messageId != "" {
+    return messageId
+  }
+  return m.generateMessageId()
 }
