@@ -11,8 +11,8 @@ import (
   "net/textproto"
   "strings"
 
-  "github.com/sloonz/go-qprintable"
   "code.google.com/p/go.net/html/charset"
+  "github.com/sloonz/go-qprintable"
 )
 
 // MIMEPart is the primary interface enmine clients will use.  Each MIMEPart represents
@@ -83,7 +83,7 @@ func (p *memMIMEPart) Disposition() string {
 
 // File Name from disposition or type header
 func (p *memMIMEPart) FileName() string {
-  return p.fileName
+  return decodeHeader(p.fileName)
 }
 
 // Decoded content of this part (can be empty)
@@ -220,7 +220,7 @@ func decodeSection(transfer_encoding string, content_type string, mediatype stri
     decoder = base64.NewDecoder(base64.StdEncoding, cleaner)
   }
 
-  if len(mediatype) > 4  && mediatype[0:5] == "text/" {
+  if len(mediatype) > 4 && mediatype[0:5] == "text/" {
     // Decode text to utf-8
     readerInUTF8, err := charset.NewReader(decoder, content_type)
     if err != nil {

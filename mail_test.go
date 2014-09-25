@@ -8,6 +8,7 @@ import (
   "net/mail"
   "os"
   "path/filepath"
+  "strings"
   "testing"
 
   "github.com/stretchr/testify/assert"
@@ -425,6 +426,19 @@ func Test16(t *testing.T) {
   }
   _ = mime
   assert.Equal(t, "\r\nj'ai vu que tu as supprimé tous les magasins dans les marchés, merci \r\nbeaucoup!\r\n", mime.Text, "Should decode latin1 body")
+}
+
+func Test17(t *testing.T) {
+  msg := readMessage("17-with-attachments.eml")
+  mime, err := ParseMIMEBody(msg)
+  if err != nil {
+    t.Fatalf("Failed to parse non-MIME: %v", err)
+  }
+  assert.Equal(t, "Subject", mime.GetHeader("SUBJECT"))
+  assert.Equal(t, 1, len(mime.Attachments))
+  if !strings.HasSuffix(mime.Attachments[0].FileName(), "14.49.25.png") {
+    t.Errorf("Expected the filename to end with %s , got %s", "14.49.25.png", mime.Attachments[0].FileName())
+  }
 }
 
 // readMessage is a test utility function to fetch a mail.Message object.
