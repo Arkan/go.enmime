@@ -49,6 +49,8 @@ func dump(reader io.Reader, name string) error {
   fmt.Printf("From: %v  \n", mime.GetHeader("From"))
   fmt.Printf("To: %v  \n", mime.GetHeader("To"))
   fmt.Printf("Subject: %v  \n", mime.GetHeader("Subject"))
+  fmt.Printf("Cc: %v  \n", mime.GetHeader("Cc"))
+  fmt.Printf("bCc: %v  \n", mime.GetHeader("Bcc"))
   fmt.Println()
 
   h2("Body Text")
