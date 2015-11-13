@@ -11,7 +11,7 @@ import (
   "net/textproto"
   "strings"
 
-  "code.google.com/p/go.net/html/charset"
+  "golang.org/x/net/html/charset"
   "github.com/sloonz/go-qprintable"
 )
 
