@@ -175,15 +175,20 @@ func parseParts(parent *memMIMEPart, reader io.Reader, boundary string) error {
     prevSibling = p
 
     // Figure out our disposition, filename
+
+    if mparams["name"] != "" {
+      p.fileName = mparams["name"]
+    }
+
     disposition, dparams, err := mime.ParseMediaType(mrp.Header.Get("Content-Disposition"))
     if err == nil {
       // Disposition is optional
       p.disposition = disposition
-      p.fileName = dparams["filename"]
+      if p.fileName == "" && dparams["filename"] != "" {
+        p.fileName = dparams["filename"]
+      }
     }
-    if p.fileName == "" && mparams["name"] != "" {
-      p.fileName = mparams["name"]
-    }
+
 
     boundary := mparams["boundary"]
     if boundary != "" {
